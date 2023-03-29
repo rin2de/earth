@@ -8,7 +8,7 @@
     height: 150px;
     width: 150px;
     border-radius: 50%;
-    box-shadow: 20px 0px 20px rgb(255, 0, 179);
+    box-shadow: 20px 0px 40px rgb(255, 0, 179);
     position: absolute;
     top: 0px;
     left: 0px;
@@ -25,17 +25,21 @@
     25%{
         top: 0px;
         left: 350px;
+        box-shadow: 20px 0px 40px rgb(207, 13, 81);
     }
     50%{
         top: 350px;
         left: 350px;
+        box-shadow: 20px 0px 40px rgb(59, 9, 197);
     }
     75%{
         top: 350px;
         left: 0px;
+        box-shadow: 20px 0px 40px rgb(250, 2, 2);
     }
     100%{
         top: 0px;
         left: 0px;
+        box-shadow: 20px 0px 40px rgb(255, 0, 179);
     }
 }
